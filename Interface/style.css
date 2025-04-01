@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background:#BCBBB8;
+}
+/* Navbar */
+#navbar{
+    background-color: rgba(4, 116, 28, 0.845);
+    height: 50px;
+    width: auto;
+    display: flex;
+    justify-content:flex-start;
+    position:sticky;
+    top: 0;
+}
+.nav-link{
+    text-decoration:none;
+    color: rgb(244, 255, 240);
+    font-size: 20px;
+    margin: 10px;
+}
+/* Head */
+h1{
+    color: green;
+    text-align: center;
+}
+/* Content Pane  */
+#home{
+    background-color: aliceblue;
+    padding:20px;
+    margin:35px;
+    border-radius: 30px;
+    height: 500px;
+}
+/* Form Area */
+.row{
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content:space-between;
+}
+.submit-button{
+    padding: 30px;
+    text-align: center;
+}
+button{
+    width: 200px;
+    height: 50px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 15px;
+}
+label{
+    font-size: large;
+    font-weight: bold;
+}
+input{
+    font-size: medium;
+    font-weight:500;
+}
+/* About Page  */
+#about{
+    background-color: aliceblue;
+    padding:20px;
+    margin:35px;
+    border-radius: 30px;
+    height: 400px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+/* Contact Us Page  */
+#contact{
+    background-color: aliceblue;
+    padding:20px;
+    margin:35px;
+    border-radius: 30px;
+    height: 400px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+.details{
+    padding-top: 75px;
+    padding-left: 170px;
+    font-size: 20px;
+}
+/* Footer  */
+footer{
+    height: 25px;
+}
